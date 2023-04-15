@@ -4,7 +4,7 @@ OPTIMIZE=-O2
 SOURCES=Window.cpp AirDefense.cpp main.cpp
 OBJS=$(SOURCES:.cpp=.o)
 TARGET=airdefense
-LDFLAGS=-l sfml-graphics -l sfml-window -l sfml-window
+LDFLAGS=-l sfml-graphics -l sfml-system -l sfml-window
 
 all: $(TARGET)
 $(TARGET): $(OBJS)
