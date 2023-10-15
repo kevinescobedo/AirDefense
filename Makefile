@@ -1,7 +1,7 @@
 CXX=g++
 CXXFLAGS=-std=c++17 -Wpedantic -Wall -Wextra -Werror -Weffc++ -Wzero-as-null-pointer-constant
 OPTIMIZE=-O2
-SOURCES=Window.cpp AirDefense.cpp main.cpp
+SOURCES=Meteor.cpp Window.cpp AirDefense.cpp main.cpp
 OBJS=$(SOURCES:.cpp=.o)
 TARGET=airdefense
 LDFLAGS=-l sfml-graphics -l sfml-system -l sfml-window

@@ -35,6 +35,7 @@ AirDefense::~AirDefense()
 
 void AirDefense::play()
 {
+    Meteor meteor(window.getSize().y / 10.f);
     while(window.isOpen())
     {
         sf::Event event;
@@ -57,6 +58,7 @@ void AirDefense::play()
 
         window.clear();
         //Draw stuff
+        window.draw(meteor);
         window.display();
     }
 }
