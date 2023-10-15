@@ -4,6 +4,7 @@
 #include <SFML/System/Vector2.hpp>
 #include <iostream>
 #include "Window.hpp"
+#include "Meteor.hpp"
 
 class AirDefense
 {
